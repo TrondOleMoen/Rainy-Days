@@ -223,10 +223,13 @@ a:active {
   width: 1fr;
   text-align: left;
 }
+.cart {
+  display: flex;
+  flex-direction: column;
+}
 .product-details-container {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
   align-items: center;
   justify-content: center;
   margin: 2rem;
